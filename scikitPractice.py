@@ -8,7 +8,6 @@ iowa_file_path = '/Users/ericsang/Desktop/Kaggle_Comp/Housing_Prices/train.csv'
 home_data = pd.read_csv(iowa_file_path)
 y = home_data.SalePrice
 
-allFeatures = ['LowQualFinSF','HalfBath','KitchenAbvGr','OpenPorchSF','EnclosedPorch','3SsnPorch','MiscVal','MoSold','YrSold']
 features = ['LotArea','YearBuilt','1stFlrSF','2ndFlrSF','FullBath','BedroomAbvGr','TotRmsAbvGrd','OverallQual','OverallCond','GrLivArea','Fireplaces','YearRemodAdd','MSSubClass','ScreenPorch','WoodDeckSF','PoolArea']
 
 def optfeats(features):
